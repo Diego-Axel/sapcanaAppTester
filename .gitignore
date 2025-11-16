@@ -1,0 +1,16 @@
+Ambientes Virtuais
+
+venv/
+*.venv/
+
+Arquivos de dados sensíveis
+
+.env
+*.csv # Se não quiser versionar os CSVs quinzenais
+*.pdf # Se não quiser versionar os PDFs de entrada
+
+Logs e Cache
+
+pycache/
+*.pyc
+*.log
